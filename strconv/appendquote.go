@@ -11,7 +11,7 @@ func main() {
 	fmt.Println(string(b))
 
 	b2 := []byte("quote:")
-	b2 = strconv.AppendQuote(b2, "he say 'hoge hgoe', ")
+	b2 = strconv.AppendQuote(b2, "he say 'hoge hg☺oe', ")
 	fmt.Println(string(b2))
 
 }
