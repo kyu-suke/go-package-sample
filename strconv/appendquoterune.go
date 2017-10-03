@@ -17,4 +17,8 @@ func main() {
 	b3 := []byte("rune:")
 	b3 = strconv.AppendQuoteRune(b3, 'r')
 	fmt.Println(string(b3))
+
+	b4 := []byte("rune:")
+	b4 = strconv.AppendQuoteRune(b4, '爆')
+	fmt.Println(string(b4))
 }
